@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2CD32AB2216ED9C1004B28F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AB1216ED9C1004B28F6 /* AppDelegate.swift */; };
-		2CD32AB4216ED9C1004B28F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AB3216ED9C1004B28F6 /* ViewController.swift */; };
 		2CD32AB7216ED9C1004B28F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD32AB5216ED9C1004B28F6 /* Main.storyboard */; };
 		2CD32ABA216ED9C1004B28F6 /* Bug_Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AB8216ED9C1004B28F6 /* Bug_Log.xcdatamodeld */; };
 		2CD32ABC216ED9C3004B28F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD32ABB216ED9C3004B28F6 /* Assets.xcassets */; };
 		2CD32ABF216ED9C3004B28F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD32ABD216ED9C3004B28F6 /* LaunchScreen.storyboard */; };
+		2CD32ACB216EDB91004B28F6 /* BugListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ACA216EDB91004B28F6 /* BugListViewController.swift */; };
+		2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2CD32AAE216ED9C1004B28F6 /* Bug Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bug Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD32AB1216ED9C1004B28F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CD32AB3216ED9C1004B28F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CD32AB6216ED9C1004B28F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CD32AB9216ED9C1004B28F6 /* Bug_Log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bug_Log.xcdatamodel; sourceTree = "<group>"; };
 		2CD32ABB216ED9C3004B28F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CD32ABE216ED9C3004B28F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CD32AC0216ED9C3004B28F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD32ACA216EDB91004B28F6 /* BugListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugListViewController.swift; sourceTree = "<group>"; };
+		2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,8 @@
 		2CD32AC8216EDA68004B28F6 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2CD32AB3216ED9C1004B28F6 /* ViewController.swift */,
+				2CD32ACA216EDB91004B28F6 /* BugListViewController.swift */,
+				2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -170,9 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD32AB4216ED9C1004B28F6 /* ViewController.swift in Sources */,
+				2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */,
 				2CD32AB2216ED9C1004B28F6 /* AppDelegate.swift in Sources */,
 				2CD32ABA216ED9C1004B28F6 /* Bug_Log.xcdatamodeld in Sources */,
+				2CD32ACB216EDB91004B28F6 /* BugListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

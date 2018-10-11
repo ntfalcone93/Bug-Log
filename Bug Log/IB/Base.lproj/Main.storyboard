@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="g9n-iW-Xm0" detailTextLabel="T14-Up-mjp" style="IBUITableViewCellStyleSubtitle" id="5Rg-ar-X6J">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="bugCell" textLabel="g9n-iW-Xm0" detailTextLabel="T14-Up-mjp" style="IBUITableViewCellStyleSubtitle" id="5Rg-ar-X6J">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Rg-ar-X6J" id="jYN-EP-nXP">
@@ -42,7 +42,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="showBugDetailFromCellSelection" id="72U-9J-f2M"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="showBugDetailFromAddBug" id="72U-9J-f2M"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -122,6 +122,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="87G-rE-Nq9"/>
+        <segue reference="72U-9J-f2M"/>
     </inferredMetricsTieBreakers>
 </document>

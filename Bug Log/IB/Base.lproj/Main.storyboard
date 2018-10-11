@@ -113,8 +113,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Bug" id="TdU-ce-Ygl">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="mCe-hg-ZPh"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="mCe-hg-ZPh">
+                            <connections>
+                                <action selector="saveTapped:" destination="BYZ-38-t0r" id="dAv-aQ-hfm"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="bodyTextField" destination="C2a-Y0-COM" id="lZN-rY-JW1"/>
+                        <outlet property="titleTextField" destination="cTF-Z4-xEH" id="orn-Mk-Wm5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

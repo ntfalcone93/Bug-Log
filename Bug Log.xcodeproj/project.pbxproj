@@ -56,15 +56,47 @@
 		2CD32AB0216ED9C1004B28F6 /* Bug Log */ = {
 			isa = PBXGroup;
 			children = (
-				2CD32AB1216ED9C1004B28F6 /* AppDelegate.swift */,
-				2CD32AB3216ED9C1004B28F6 /* ViewController.swift */,
-				2CD32AB5216ED9C1004B28F6 /* Main.storyboard */,
-				2CD32ABB216ED9C3004B28F6 /* Assets.xcassets */,
-				2CD32ABD216ED9C3004B28F6 /* LaunchScreen.storyboard */,
-				2CD32AC0216ED9C3004B28F6 /* Info.plist */,
-				2CD32AB8216ED9C1004B28F6 /* Bug_Log.xcdatamodeld */,
+				2CD32AC8216EDA68004B28F6 /* View Controllers */,
+				2CD32AC6216EDA52004B28F6 /* IB */,
+				2CD32AC9216EDA79004B28F6 /* Models */,
+				2CD32AC7216EDA5F004B28F6 /* Other */,
 			);
 			path = "Bug Log";
+			sourceTree = "<group>";
+		};
+		2CD32AC6216EDA52004B28F6 /* IB */ = {
+			isa = PBXGroup;
+			children = (
+				2CD32AB5216ED9C1004B28F6 /* Main.storyboard */,
+				2CD32ABD216ED9C3004B28F6 /* LaunchScreen.storyboard */,
+			);
+			path = IB;
+			sourceTree = "<group>";
+		};
+		2CD32AC7216EDA5F004B28F6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2CD32AB1216ED9C1004B28F6 /* AppDelegate.swift */,
+				2CD32ABB216ED9C3004B28F6 /* Assets.xcassets */,
+				2CD32AC0216ED9C3004B28F6 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2CD32AC8216EDA68004B28F6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CD32AB3216ED9C1004B28F6 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2CD32AC9216EDA79004B28F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CD32AB8216ED9C1004B28F6 /* Bug_Log.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

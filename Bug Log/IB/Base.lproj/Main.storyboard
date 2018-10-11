@@ -79,7 +79,7 @@
             </objects>
             <point key="canvasLocation" x="-737" y="115"/>
         </scene>
-        <!--Title-->
+        <!--Add Bug-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="BugDetailViewController" customModule="Bug_Log" customModuleProvider="target" sceneMemberID="viewController">
@@ -112,7 +112,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="TdU-ce-Ygl">
+                    <navigationItem key="navigationItem" title="Add Bug" id="TdU-ce-Ygl">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="mCe-hg-ZPh"/>
                     </navigationItem>
                 </viewController>

@@ -14,6 +14,7 @@
 		2CD32ACB216EDB91004B28F6 /* BugListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ACA216EDB91004B28F6 /* BugListViewController.swift */; };
 		2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */; };
 		2CD32ADF217010BB004B28F6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */; };
+		2CD32AE221701310004B28F6 /* Bug-Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE021701310004B28F6 /* Bug-Log.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2CD32ACA216EDB91004B28F6 /* BugListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugListViewController.swift; sourceTree = "<group>"; };
 		2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugDetailViewController.swift; sourceTree = "<group>"; };
 		2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		2CD32AE121701310004B28F6 /* Bug-Log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Bug-Log.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */,
+				2CD32AE021701310004B28F6 /* Bug-Log.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD32AE221701310004B28F6 /* Bug-Log.xcdatamodeld in Sources */,
 				2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */,
 				2CD32AB2216ED9C1004B28F6 /* AppDelegate.swift in Sources */,
 				2CD32ACB216EDB91004B28F6 /* BugListViewController.swift in Sources */,
@@ -376,6 +380,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CD32AE021701310004B28F6 /* Bug-Log.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CD32AE121701310004B28F6 /* Bug-Log.xcdatamodel */,
+			);
+			currentVersion = 2CD32AE121701310004B28F6 /* Bug-Log.xcdatamodel */;
+			path = "Bug-Log.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2CD32AA6216ED9C1004B28F6 /* Project object */;
 }

@@ -15,6 +15,7 @@
 		2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */; };
 		2CD32ADF217010BB004B28F6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */; };
 		2CD32AE221701310004B28F6 /* Bug-Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE021701310004B28F6 /* Bug-Log.xcdatamodeld */; };
+		2CD32AE4217014B0004B28F6 /* BugExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE3217014B0004B28F6 /* BugExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugDetailViewController.swift; sourceTree = "<group>"; };
 		2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		2CD32AE121701310004B28F6 /* Bug-Log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Bug-Log.xcdatamodel"; sourceTree = "<group>"; };
+		2CD32AE3217014B0004B28F6 /* BugExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */,
 				2CD32AE021701310004B28F6 /* Bug-Log.xcdatamodeld */,
+				2CD32AE3217014B0004B28F6 /* BugExtension.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD32AE4217014B0004B28F6 /* BugExtension.swift in Sources */,
 				2CD32AE221701310004B28F6 /* Bug-Log.xcdatamodeld in Sources */,
 				2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */,
 				2CD32AB2216ED9C1004B28F6 /* AppDelegate.swift in Sources */,

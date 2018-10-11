@@ -16,7 +16,8 @@ class BugDetailViewController: UIViewController {
     @IBOutlet weak var logTextField: UITextView!
     @IBOutlet weak var severitySegmentControl: UISegmentedControl!
     @IBOutlet weak var causationTextField: UITextView!
-
+    @IBOutlet weak var stepsTextView: UITextView!
+    
     // MARK: Lifecycle methods
 
     override func viewDidLoad() {

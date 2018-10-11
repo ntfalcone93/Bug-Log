@@ -15,6 +15,8 @@
 		2CD32ACB216EDB91004B28F6 /* BugListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ACA216EDB91004B28F6 /* BugListViewController.swift */; };
 		2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */; };
 		2CD32AD3216F0968004B28F6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AD2216F0968004B28F6 /* CoreDataStack.swift */; };
+		2CD32ADA216F0D26004B28F6 /* Bug+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AD8216F0D26004B28F6 /* Bug+CoreDataClass.swift */; };
+		2CD32ADB216F0D26004B28F6 /* Bug+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AD9216F0D26004B28F6 /* Bug+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		2CD32ACA216EDB91004B28F6 /* BugListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugListViewController.swift; sourceTree = "<group>"; };
 		2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugDetailViewController.swift; sourceTree = "<group>"; };
 		2CD32AD2216F0968004B28F6 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		2CD32AD8216F0D26004B28F6 /* Bug+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bug+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2CD32AD9216F0D26004B28F6 /* Bug+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bug+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		2CD32AC9216EDA79004B28F6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2CD32AD8216F0D26004B28F6 /* Bug+CoreDataClass.swift */,
+				2CD32AD9216F0D26004B28F6 /* Bug+CoreDataProperties.swift */,
 				2CD32AB8216ED9C1004B28F6 /* Bug_Log.xcdatamodeld */,
 				2CD32AD2216F0968004B28F6 /* CoreDataStack.swift */,
 			);
@@ -178,7 +184,9 @@
 			files = (
 				2CD32AD3216F0968004B28F6 /* CoreDataStack.swift in Sources */,
 				2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */,
+				2CD32ADA216F0D26004B28F6 /* Bug+CoreDataClass.swift in Sources */,
 				2CD32AB2216ED9C1004B28F6 /* AppDelegate.swift in Sources */,
+				2CD32ADB216F0D26004B28F6 /* Bug+CoreDataProperties.swift in Sources */,
 				2CD32ABA216ED9C1004B28F6 /* Bug_Log.xcdatamodeld in Sources */,
 				2CD32ACB216EDB91004B28F6 /* BugListViewController.swift in Sources */,
 			);

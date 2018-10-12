@@ -42,7 +42,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="showBugDetailFromAddBug" id="72U-9J-f2M"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="showBugDetailFromCellSelection" id="72U-9J-f2M"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

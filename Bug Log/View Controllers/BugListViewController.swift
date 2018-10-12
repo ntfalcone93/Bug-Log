@@ -29,7 +29,7 @@ class BugListViewController: UITableViewController {
         if segue.identifier == "showBugDetailFromCellSelection",
             let bugDetailVC = segue.destination as? BugDetailViewController,
             let selectedIndex = tableView.indexPathForSelectedRow?.row {
-            
+
             bugDetailVC.bug = BugController.bugs[selectedIndex]
         }
     }
@@ -51,5 +51,17 @@ extension BugListViewController {
         cell.detailTextLabel?.text = bug.log
 
         return cell
+    }
+
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            let bug = BugController.bugs[indexPath.row]
+            BugController.delete(bug)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
     }
 }

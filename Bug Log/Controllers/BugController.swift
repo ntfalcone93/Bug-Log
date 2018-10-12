@@ -37,7 +37,7 @@ class BugController {
     private static func fetchBugs() -> [Bug] {
         let bugRequest: NSFetchRequest<Bug> = Bug.fetchRequest()
         do {
-            let bugs = try bugRequest.execute()
+            let bugs = try CoreDataStack.managedObjectContext.fetch(bugRequest)
             return bugs
         } catch {
             print("\n\nERROR: CoreData - Could retrieve Bug entities.\nLog: \(error)")

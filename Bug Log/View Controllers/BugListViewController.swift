@@ -32,14 +32,15 @@ class BugListViewController: UITableViewController {
 extension BugListViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return BugController.bugs.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "bugCell", for: indexPath)
 
-        // Configure the cell...
+        let bug = BugController.bugs[indexPath.row]
+        cell.textLabel?.text = bug.title
+        cell.detailTextLabel?.text = bug.log
 
         return cell
     }

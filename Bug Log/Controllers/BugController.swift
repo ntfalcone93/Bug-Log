@@ -11,7 +11,6 @@ import CoreData
 
 class BugController {
 
-
     var bugs: [Bug] {
         return fetchBugs()
     }
@@ -19,12 +18,16 @@ class BugController {
     // MARK: Create
 
     func create(with title: String,
-                   log: String,
-                   severity: Int,
-                   causation: String,
-                   steps: String) {
+                log: String,
+                severity: Int,
+                causation: String,
+                steps: String) {
 
-        Bug(title: title, log: log, severity: severity, causation: causation, steps: steps)
+        Bug(title: title,
+            log: log,
+            severity: severity,
+            causation: causation,
+            steps: steps)
         saveContext()
     }
 
@@ -44,11 +47,11 @@ class BugController {
     // MARK: Update
 
     func update(with title: String,
-                   log: String,
-                   severity: Int,
-                   causation: String,
-                   steps: String,
-                   bugToUpdate: Bug) {
+                log: String,
+                severity: Int,
+                causation: String,
+                steps: String,
+                bugToUpdate: Bug) {
 
         bugToUpdate.title = title
         bugToUpdate.log = log

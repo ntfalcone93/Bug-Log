@@ -47,7 +47,7 @@ class BugController {
 
     // MARK: Update
 
-    static func update(with title: String,
+    static func update(withTitle title: String,
                 log: String,
                 severity: Int,
                 causation: String,

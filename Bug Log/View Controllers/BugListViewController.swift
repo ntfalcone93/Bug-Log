@@ -17,12 +17,20 @@ class BugListViewController: UITableViewController {
 
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        tableView.reloadData()
+    }
+
     // MARK: Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showBugDetailFromCellSelection",
-            let bugDetailVC = segue.destination as? BugDetailViewController {
-            // TODO: Pass the model
+            let bugDetailVC = segue.destination as? BugDetailViewController,
+            let selectedIndex = tableView.indexPathForSelectedRow?.row {
+            
+            bugDetailVC.bug = BugController.bugs[selectedIndex]
         }
     }
 }

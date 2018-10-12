@@ -223,8 +223,8 @@
                     </navigationItem>
                     <size key="freeformSize" width="375" height="1007"/>
                     <connections>
-                        <outlet property="causationTextField" destination="7fb-sn-T50" id="vq0-Jq-x7Q"/>
-                        <outlet property="logTextField" destination="C2a-Y0-COM" id="huY-Rp-UWM"/>
+                        <outlet property="causationTextView" destination="7fb-sn-T50" id="Mtz-Pe-qq8"/>
+                        <outlet property="logTextView" destination="C2a-Y0-COM" id="oKz-wO-5mU"/>
                         <outlet property="severitySegmentControl" destination="ynC-2G-UFg" id="7Yh-pU-rHh"/>
                         <outlet property="stepsTextView" destination="scO-UH-A61" id="cYm-Tf-AUr"/>
                         <outlet property="titleTextField" destination="cTF-Z4-xEH" id="orn-Mk-Wm5"/>

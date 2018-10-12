@@ -13,9 +13,9 @@ class BugDetailViewController: UIViewController {
     // MARK: @IBOutlets
 
     @IBOutlet weak var titleTextField: UITextField!
-    @IBOutlet weak var logTextField: UITextView!
+    @IBOutlet weak var logTextView: UITextView!
     @IBOutlet weak var severitySegmentControl: UISegmentedControl!
-    @IBOutlet weak var causationTextField: UITextView!
+    @IBOutlet weak var causationTextView: UITextView!
     @IBOutlet weak var stepsTextView: UITextView!
     
     // MARK: Lifecycle methods

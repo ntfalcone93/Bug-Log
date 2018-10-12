@@ -11,13 +11,13 @@ import CoreData
 
 class BugController {
 
-    var bugs: [Bug] {
+    static var bugs: [Bug] {
         return fetchBugs()
     }
 
     // MARK: Create
 
-    func create(with title: String,
+    static func create(withTitle title: String,
                 log: String,
                 severity: Int,
                 causation: String,
@@ -28,12 +28,13 @@ class BugController {
             severity: severity,
             causation: causation,
             steps: steps)
+
         saveContext()
     }
 
     // MARK: Retrieve
 
-    func fetchBugs() -> [Bug] {
+    private static func fetchBugs() -> [Bug] {
         let bugRequest = Bug.request()
         do {
             let bugs = try bugRequest.execute()
@@ -46,7 +47,7 @@ class BugController {
 
     // MARK: Update
 
-    func update(with title: String,
+    static func update(with title: String,
                 log: String,
                 severity: Int,
                 causation: String,
@@ -64,14 +65,15 @@ class BugController {
 
     // MARK: Delete
 
-    func delete(_ bug: Bug) {
+    static func delete(_ bug: Bug) {
         CoreDataStack.managedObjectContext.delete(bug)
+        
         saveContext()
     }
 
     // MARK: Save to persistent store
 
-    private func saveContext() {
+    private static func saveContext() {
         do {
             try CoreDataStack.managedObjectContext.save()
         } catch {

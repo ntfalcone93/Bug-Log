@@ -16,6 +16,7 @@
 		2CD32ADF217010BB004B28F6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */; };
 		2CD32AE221701310004B28F6 /* Bug-Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE021701310004B28F6 /* Bug-Log.xcdatamodeld */; };
 		2CD32AE4217014B0004B28F6 /* BugExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE3217014B0004B28F6 /* BugExtension.swift */; };
+		2CD32AE621701D24004B28F6 /* BugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE521701D24004B28F6 /* BugController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		2CD32AE121701310004B28F6 /* Bug-Log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Bug-Log.xcdatamodel"; sourceTree = "<group>"; };
 		2CD32AE3217014B0004B28F6 /* BugExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugExtension.swift; sourceTree = "<group>"; };
+		2CD32AE521701D24004B28F6 /* BugController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				2CD32AC8216EDA68004B28F6 /* View Controllers */,
 				2CD32AC6216EDA52004B28F6 /* IB */,
+				2CD32AE721701D29004B28F6 /* Controllers */,
 				2CD32AC9216EDA79004B28F6 /* Models */,
 				2CD32AC7216EDA5F004B28F6 /* Other */,
 			);
@@ -106,6 +109,14 @@
 				2CD32AE3217014B0004B28F6 /* BugExtension.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2CD32AE721701D29004B28F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CD32AE521701D24004B28F6 /* BugController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */,
 				2CD32AB2216ED9C1004B28F6 /* AppDelegate.swift in Sources */,
 				2CD32ACB216EDB91004B28F6 /* BugListViewController.swift in Sources */,
+				2CD32AE621701D24004B28F6 /* BugController.swift in Sources */,
 				2CD32ADF217010BB004B28F6 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

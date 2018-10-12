@@ -7,10 +7,11 @@
 //
 
 import Foundation
+import CoreData
 
 extension Bug {
 
-    convenience init(title: String,
+    @discardableResult convenience init(title: String,
                      log: String,
                      severity: Int,
                      causation: String,
@@ -23,5 +24,10 @@ extension Bug {
         self.severity = Int16(severity)
         self.causation = causation
         self.steps = steps
+        self.timestamp = Date()
+    }
+
+    static func request() -> NSFetchRequest<Bug> {
+        return NSFetchRequest<Bug>(entityName: "Bug")
     }
 }

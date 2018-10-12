@@ -28,6 +28,18 @@ class BugDetailViewController: UIViewController {
     // MARK: @IBActions
 
     @IBAction func saveTapped(_ sender: UIBarButtonItem) {
-        // TODO: Save bug
+        createBug()
+    }
+
+    func createBug() {
+        if let title = titleTextField.text,
+            let logString = logTextView.text,
+            let causationString = causationTextView.text,
+            let stepsString = stepsTextView.text {
+
+            let severity = severitySegmentControl.selectedSegmentIndex + 1
+
+            BugController.create(withTitle: title, log: logString, severity: severity, causation: causationString, steps: stepsString)
+        }
     }
 }

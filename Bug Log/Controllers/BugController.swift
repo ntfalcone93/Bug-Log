@@ -35,7 +35,7 @@ class BugController {
     // MARK: Retrieve
 
     private static func fetchBugs() -> [Bug] {
-        let bugRequest = Bug.request()
+        let bugRequest: NSFetchRequest<Bug> = Bug.fetchRequest()
         do {
             let bugs = try bugRequest.execute()
             return bugs

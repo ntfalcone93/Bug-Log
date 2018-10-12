@@ -14,7 +14,7 @@
 		2CD32ACB216EDB91004B28F6 /* BugListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ACA216EDB91004B28F6 /* BugListViewController.swift */; };
 		2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ACC216EDBAB004B28F6 /* BugDetailViewController.swift */; };
 		2CD32ADF217010BB004B28F6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */; };
-		2CD32AE221701310004B28F6 /* Bug-Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE021701310004B28F6 /* Bug-Log.xcdatamodeld */; };
+		2CD32AE221701310004B28F6 /* Bug Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE021701310004B28F6 /* Bug Log.xcdatamodeld */; };
 		2CD32AE4217014B0004B28F6 /* BugExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE3217014B0004B28F6 /* BugExtension.swift */; };
 		2CD32AE621701D24004B28F6 /* BugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD32AE521701D24004B28F6 /* BugController.swift */; };
 /* End PBXBuildFile section */
@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				2CD32ADE217010BB004B28F6 /* CoreDataStack.swift */,
-				2CD32AE021701310004B28F6 /* Bug-Log.xcdatamodeld */,
+				2CD32AE021701310004B28F6 /* Bug Log.xcdatamodeld */,
 				2CD32AE3217014B0004B28F6 /* BugExtension.swift */,
 			);
 			path = Models;
@@ -191,7 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD32AE4217014B0004B28F6 /* BugExtension.swift in Sources */,
-				2CD32AE221701310004B28F6 /* Bug-Log.xcdatamodeld in Sources */,
+				2CD32AE221701310004B28F6 /* Bug Log.xcdatamodeld in Sources */,
 				2CD32ACD216EDBAB004B28F6 /* BugDetailViewController.swift in Sources */,
 				2CD32AB2216ED9C1004B28F6 /* AppDelegate.swift in Sources */,
 				2CD32ACB216EDB91004B28F6 /* BugListViewController.swift in Sources */,
@@ -398,13 +398,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2CD32AE021701310004B28F6 /* Bug-Log.xcdatamodeld */ = {
+		2CD32AE021701310004B28F6 /* Bug Log.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				2CD32AE121701310004B28F6 /* Bug-Log.xcdatamodel */,
 			);
 			currentVersion = 2CD32AE121701310004B28F6 /* Bug-Log.xcdatamodel */;
-			path = "Bug-Log.xcdatamodeld";
+			path = "Bug Log.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

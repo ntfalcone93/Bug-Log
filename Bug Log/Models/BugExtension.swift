@@ -26,8 +26,4 @@ extension Bug {
         self.steps = steps
         self.timestamp = Date()
     }
-
-    static func request() -> NSFetchRequest<Bug> {
-        return NSFetchRequest<Bug>(entityName: "Bug")
-    }
 }
